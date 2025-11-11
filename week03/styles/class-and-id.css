@@ -28,14 +28,11 @@ code {
     margin: 20px 0;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 10px;
-    background-color: #ddd; /* this is shorthand for #dddddd */
+    background-color: #ddd;
+    /* this is shorthand for #dddddd */
 }
 
-.highlight {
-    background-color: #efefaa;
-    border-radius: 25px;
-    padding: 25px;
-}
+
 
 /* ID examples - should be unique */
 
@@ -43,6 +40,7 @@ code {
     background-color: #333;
     color: white;
     width: fit-content;
+
 }
 
 #note code {
@@ -55,4 +53,3 @@ code {
     border-radius: 20px;
     padding: 20px
 }
-
