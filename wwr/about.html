@@ -8,12 +8,14 @@
     <meta name="description"
         content="Learn more about Dry Oar Rafting Co., our history, and the unforgettable adventures we offer.">
     <meta name="author" content="Juan Villalobos">
+
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header>
         <img src="images/logo.png" alt="Dry Oar Rafting Co. logo" class="logo">
+
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html" class="active">About Us</a>
@@ -23,8 +25,10 @@
     </header>
 
     <main>
+        <!-- HERO SECTION -->
         <div id="hero">
             <img src="images/hero.jpg" alt="Rafting group on the river">
+
             <h1>Dry Oar Rafting Co.</h1>
 
             <article>
@@ -37,6 +41,7 @@
             </article>
         </div>
 
+        <!-- HISTORY SECTION -->
         <section class="history">
             <h2>History</h2>
             <p>
@@ -47,10 +52,12 @@
             </p>
         </section>
 
+        <!-- ADVENTURE SECTION -->
         <section class="adventure">
             <h2>Adventure Awaits You!</h2>
+
             <div class="adventure-gallery">
-                <!-- You will insert 3–5 rafting images here during the Trips assignment -->
+                <!-- Placeholder for Trips assignment images -->
                 <p class="placeholder">Adventure images will go here</p>
             </div>
         </section>
@@ -60,19 +67,20 @@
         <p>&copy; <span id="year"></span> Dry Oar Rafting Co. — Juan Villalobos</p>
 
         <nav class="socialmedia" aria-label="Social media links">
-            <a href="#" target="_blank">
+            <a href="#" target="_blank" rel="noopener">
                 <img src="images/facebook-icon.png" alt="Facebook">
             </a>
-            <a href="#" target="_blank">
+            <a href="#" target="_blank" rel="noopener">
                 <img src="images/instagram-icon.png" alt="Instagram">
             </a>
-            <a href="#" target="_blank">
+            <a href="#" target="_blank" rel="noopener">
                 <img src="images/twitter-icon.png" alt="Twitter">
             </a>
         </nav>
     </footer>
 
     <script>
+        // Auto-update the current year
         document.getElementById("year").textContent = new Date().getFullYear();
     </script>
 </body>
