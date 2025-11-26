@@ -1,17 +1,14 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
 body {
     font-size: 16px;
     font-family: Roboto, Arial, sans-serif;
 }
 
-/* Header, Grid Wrapper, Footer */
 header,
 .grid,
 footer {
@@ -19,7 +16,6 @@ footer {
     margin: 0 auto;
 }
 
-/* Navigation Bar */
 nav {
     background-color: steelblue;
     padding: 1rem;
@@ -42,7 +38,7 @@ nav a:hover {
     color: steelblue;
 }
 
-/* Headings */
+
 h1 {
     color: darkblue;
     border-bottom: 2px solid steelblue;
@@ -50,7 +46,7 @@ h1 {
     margin: 1rem 0;
 }
 
-/* Main */
+
 main img {
     width: 180px;
     height: auto;
@@ -61,12 +57,12 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
-/* Paragraphs */
+
 p {
     margin: 1rem 0;
 }
 
-/* Aside */
+
 aside {
     width: 20rem;
     text-align: center;
@@ -86,26 +82,26 @@ aside h2 {
     left: 140px;
 }
 
-/* Grid Layout */
+
 .grid {
     display: grid;
     align-items: center;
 }
 
-/* Main grid placement */
+
 main {
     grid-column: 2/3;
     margin: 1rem;
 }
 
-/* Footer */
+
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
 }
 
-/* Utility Classes */
+
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
