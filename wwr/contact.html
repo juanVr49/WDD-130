@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Dry Oar Rafting Co.</title>
+    <meta name="description" content="Contact Dry Oar Rafting Co. for inquiries, bookings, and more.">
+    <meta name="author" content="Juan Villalobos">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header class="container">
+        <img src="images/logo.png" alt="Dry Oar Rafting Co. logo" class="logo">
+        <h1>Dry Oar Rafting Co.</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="information">
+
+        <!-- CONTACT INFORMATION -->
+        <section class="info">
+            <h1>Dry Oar Rafting Co.</h1>
+            <h2>1124 North Ridge Avenue</h2>
+            <h3>Spanish Fork, Utah</h3>
+            <p><strong>Phone:</strong> +1 823 888 1234</p>
+            <p><strong>Email:</strong> info@dryoarrafting.com</p>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <form>
+
+            <!-- Full name -->
+            <div class="form-item">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+
+            <!-- Email -->
+            <div class="form-item">
+                <label for="usermail">Email:</label>
+                <input type="email" id="usermail" name="usermail" required>
+            </div>
+
+            <!-- Message Purpose (checkbox or should be radios?) -->
+            <div class="form-item">
+                <p>Message Purpose:</p>
+                <label><input type="checkbox" name="purpose" value="general"> General Inquiry</label>
+                <label><input type="checkbox" name="purpose" value="reservation"> Reservation Question</label>
+                <label><input type="checkbox" name="purpose" value="support"> Website Suggestion</label>
+            </div>
+
+            <!-- Message -->
+            <div class="form-item">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Type message..."></textarea>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="form-item">
+                <label>
+                    <input type="checkbox" id="monthly" name="monthly">
+                    Subscribe me to the monthly newsletter
+                </label>
+            </div>
+
+            <!-- Submit -->
+            <div class="form-item button-row">
+                <button type="submit">Get in Touch!</button>
+            </div>
+        </form>
+
+        <!-- GOOGLE MAP -->
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7257.396611973098!2d-111.65252437211639!3d40.11199349922176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sus!4v1764441150093!5m2!1ses-419!2sus"
+                width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <!-- EMPLOYEE SECTION -->
+        <section class="employee">
+            <h2>We are here to give the best experience!</h2>
+
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Portrait of COO and Founder">
+                    <figcaption>COO | Founder</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg" alt="Portrait of Store Manager">
+                    <figcaption>Store Manager</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Portrait of Employee of the Month">
+                    <figcaption>Employee of the Month</figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="container">
+        <p>© 2025 Dry Oar Rafting Co. — Juan Villalobos</p>
+
+        <nav class="socialmedia">
+            <a href="#" target="_blank" rel="noopener">
+                <img src="images/facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="#" target="_blank" rel="noopener">
+                <img src="images/instagram-icon.jpg" alt="Instagram">
+            </a>
+            <a href="#" target="_blank" rel="noopener">
+                <img src="images/twitter-icon.png" alt="Twitter">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
